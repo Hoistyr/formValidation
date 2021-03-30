@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<head>
+  <title>Form Validation Practice</title>
+  <link rel="stylesheet" href="../src/styles.css">
+</head>
+<body>
+  <div id="content">
+    <div id="browserFormHolder">
+      <div id="errorElement"></div>
+      <form id="browserForm" action="./main.js" method="GET">
+        <label for="email" class="formLabel">Please enter your Email:</label>
+        <input type="email" id="emailInput" name="email" class="formInput">
+
+        <label for = "country" class="formLabel">Please enter your country:</label>
+        <input type="text" id="countryInput" name="country" class="formInput">
+
+        <label for = "zipCode" class="formLabel">Please enter your Zip Code:</label>
+        <input type="text" id="zipCodeInput" name="zipCode" class="formInput">
+
+        <label for = "password" class="formLabel">Please enter your password:</label>
+        <input type="password" id="passwordInput" name="password" class="formInput">
+
+        <label for = "passwordConfirmation" class="formLabel">Please re-enter your password:</label>
+        <input type="password" id="passwordConfirmationInput" name="passwordConfirmation" class="formInput">
+
+        <button id="submitButton">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>

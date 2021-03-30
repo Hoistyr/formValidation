@@ -1,0 +1,1 @@
+(()=>{const e=document.getElementById('browserForm"');document.getElementById("emailInput"),document.getElementById("countryInput"),document.getElementById("zipCodeInput"),document.getElementById("passwordInput"),document.getElementById("passwordConfirmationInput"),document.getElementById("errorElement"),e.addEventListener("submit",(e=>{e.preventDefault()}))})();
